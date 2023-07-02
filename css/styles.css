@@ -36,6 +36,7 @@ img {
   --background-own: #ffffff;
   --background-light: #f4f4fd;
   --border-bottom: #e7e9fc;
+  --border-custom: #8E8F99;
 }
 .visually-hidden {
   position: absolute;
@@ -50,6 +51,8 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+/*Header*/
+
 .own-header {
   border-bottom: 1px solid #e7e9fc;
 }
@@ -78,6 +81,8 @@ img {
   align-items: center;
   gap: 40px;
 }
+
+
 .div-hero {
 }
 
@@ -153,6 +158,8 @@ img {
   color: #404bbf;
 }
 
+/*Hero secsion*/
+
 .own-main {
 }
 .hero {
@@ -199,11 +206,18 @@ img {
 .hero-butt:focus {
   background-color: #404bbf;
 }
+
+/*Our beneffits*/
+
 .benef {
   padding: 120px 0;
 }
-.div-benef {
+.benef-div-icon {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 264px;
+  height: 112px;
 }
 .visually-hidden {
 }
@@ -235,6 +249,8 @@ img {
   color: var(--Body-text);
   width: 264px;
 }
+/*Our opportunity*/
+
 .opport {
   padding-bottom: 120px;
 }
@@ -261,6 +277,8 @@ img {
 }
 .opport-list {
 }
+
+/*Team*/
 
 .we-are {
   background-color: #f4f4fd;
@@ -317,10 +335,66 @@ img {
   color: var(--Body-text);
   text-align: center;
 }
+
+/*Customers*/
+
+.customers{
+  padding: 120px 0;
+}
+.custom-title{
+  text-align: center;
+  padding-bottom: 72px;
+
+}
+
+
+.ul-custom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  
+  
+}
+.li-custom{
+  display: flex;
+}
+.custom-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 168px;
+    height: 88px;
+    border: 1px solid var(--border-custom);
+      border-radius: 4px;
+   
+}
+
+.custom-link:hover{
+  border-color: var(--ctas-activ);
+}
+
+.client-icon{
+  fill: var(--border-custom);
+}
+
+.custom-link:hover .client-icon{
+  fill: var(--ctas-activ);
+}
+
+/*Footer*/
+
 .own-footer {
   background-color: var(--headings-three);
   padding: 100px 0;
 }
+
+.div-own-footer{
+  display: flex;
+  gap: 120px;
+  align-items: center;
+}
+
 .div-logo-foot {
   margin-bottom: 16px;
   display: inline-block;
@@ -350,6 +424,31 @@ img {
 .logo-stud-foot {
   color: #f4f4fd;
 }
+
+.foot-soc-link {
+  max-width: 208px;
+  height: 80px;
+}
+
+.foot-tit-icon{
+  font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+  padding-bottom: 16px;
+  color: var(--background-own);
+}
+.ul-we-are-icon{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 16px;
+}
+
+
+
+
 
 /* PAGE-2 */
 
