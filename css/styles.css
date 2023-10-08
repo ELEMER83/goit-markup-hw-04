@@ -37,6 +37,7 @@ img {
   --background-light: #f4f4fd;
   --border-bottom: #e7e9fc;
   --border-custom: #8E8F99;
+  --icon-hov: #31D0AA;
 }
 .visually-hidden {
   position: absolute;
@@ -392,7 +393,7 @@ img {
 .div-own-footer{
   display: flex;
   gap: 120px;
-  align-items: center;
+ 
 }
 
 .div-logo-foot {
@@ -428,6 +429,7 @@ img {
 .foot-soc-link {
   max-width: 208px;
   height: 80px;
+  padding-top: 0;
 }
 
 .foot-tit-icon{
@@ -446,9 +448,20 @@ img {
   gap: 16px;
 }
 
+.we-are-icon-link{
+  background-color: var(--cta-norm);
+  width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
 
+.we-are-icon-link:hover{
+background-color: var(--icon-hov);
+}
 
-
+.we-are-social{
+  
+}
 
 /* PAGE-2 */
 
